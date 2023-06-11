@@ -1,0 +1,39 @@
+.statistics {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+    margin-left: 100px;
+
+}
+
+.statistics__title {
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.statistics__list {
+    display: flex;
+    background-color: gainsboro;
+}
+
+.statistics__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 5);
+    padding: 10px 0;
+    box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    color: slategray;        
+}
+
+
+
+.statistics__percentage {
+    font-size: 20px;
+}
+

@@ -1,0 +1,43 @@
+.friends__list {
+    width: 250px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.friends__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.friends__online,
+.friends__offline {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.friends__online {
+    background-color: green;
+}
+
+.friends__offline {
+    background-color: red;
+}
+
+.friends__avatar {
+    border-radius: 3px;
+}
+
+.friends__name {
+    font-size: 20px;
+    font-weight: 700;
+}

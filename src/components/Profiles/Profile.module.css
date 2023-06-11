@@ -1,0 +1,70 @@
+.profile {
+    border: 1px solid gray;
+    box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    width: 240px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.profile__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: aliceblue;*/
+    margin-bottom: 15px;
+}
+
+.profile__avatar {
+    border-radius: 70px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+
+.profile__name {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile__tag {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.profile__location {
+    color: gray;
+}
+
+.stats {
+    display: flex;
+    /*gap: 10px;*/
+    background-color: gainsboro;
+    width: 240px;
+    border-top: 1px solid gray;
+}
+
+.stats__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3);
+}
+
+.stats__item:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+.stats__label {
+    color: gray;
+}
+
+.stats__quantity {
+    font-weight: 700;
+}
