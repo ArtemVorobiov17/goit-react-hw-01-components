@@ -8,7 +8,7 @@ function FriendsItem({ avatar, name, isOnline, id }) {
                 (<span className={css.friends__online}></span>) :
                 (<span className={css.friends__offline}></span>)
             }
-            <img className={css.friends__avatar} src={avatar} name={name} width='50' />
+            <img className={css.friends__avatar} src={avatar} alt={name} width='50' />
             <p className={css.friends__name}>{name}</p>
         </li>
     );
